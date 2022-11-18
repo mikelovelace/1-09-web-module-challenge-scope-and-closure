@@ -34,15 +34,15 @@ console.log(
   Study the code for counter1 and counter2, then answer the questions below.
   
   1. What is the difference between counter1 and counter2?
-  Counter 1 has a variable called count within its local scope
-  Counter 2 has a variable called count in global scope
+  Counter 1 has a private variable in local scope, which is only accessible by the counterMaker function
+  Counter 2 has a variable called count in global scope which can be accesed by any part of the script
 
   2. Which of the two uses a closure? How can you tell?
   Counter 1 uses closure because it contains a nested function which has access to a private variable inside its parent scope
   
   3. In what scenario would the counter1 code be preferable? In what scenario would counter2 be better? 
   Counter 1 would be better when one only wants one specific function or any of its helpers to have access to a private variable.
-  Counter 2 is better when one wants every function in the program to have access to the count variable without having to invoke anything.
+  Counter 2 is better when one wants every part of a program to have access to the count variable.
 */
 
 // counter1 code
