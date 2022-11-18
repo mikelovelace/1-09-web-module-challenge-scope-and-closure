@@ -34,12 +34,16 @@ console.log(
   Study the code for counter1 and counter2, then answer the questions below.
   
   1. What is the difference between counter1 and counter2?
-  Count 1 has a variable called count within its block scope
-  Count 2 has a variable called count in global scope
+  Counter 1 has a variable called count within its local scope and is a callback so it can be accessed later on and not immediatly
+  Counter 2 has a variable called count in global scope which will activate immediatly when the function is ran.
+
   2. Which of the two uses a closure? How can you tell?
+  Counter 2 utilizes closure because it is referencing a variable outside of its scope
   
   3. In what scenario would the counter1 code be preferable? In what scenario would 
-     counter2 be better?  
+     counter2 be better? 
+  Counter 1 would be better when one needs to reset the counter every time the fuction is invoked.
+  Counter 2 is better when one wants to access the counter later on using a call back. 
 */
 
 // counter1 code
