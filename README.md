@@ -29,7 +29,6 @@ There are layers upon layers of nested functions within the game of baseball. Yo
 
 Using VSCode and Command Line:
 
-
 1. Fork the repo
 2. Go into canvas and connect your reop to codegrade
 3. Clone your forked version of the repo
